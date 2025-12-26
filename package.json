@@ -1,0 +1,15 @@
+{
+  "name": "n8n-railway",
+  "version": "1.0.0",
+  "description": "N8N on Railway",
+  "scripts": {
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
