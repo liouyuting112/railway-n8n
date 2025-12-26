@@ -1,0 +1,22 @@
+在 Railway 專案的 "Variables" 標籤中，設定以下環境變數：
+
+⚠️ 重要：必須設定的環境變數
+----------------------------------------
+N8N_BASIC_AUTH_ACTIVE=true
+N8N_BASIC_AUTH_USER=admin
+N8N_BASIC_AUTH_PASSWORD=你的密碼（請修改為強密碼）
+
+⚠️ 必須設定（修正企業版模組錯誤）：
+----------------------------------------
+N8N_DISABLE_PRODUCTION_MAIN_PROCESS=true
+
+可選的環境變數：
+----------------------------------------
+N8N_HOST=0.0.0.0
+N8N_PROTOCOL=https
+N8N_METRICS=true
+
+❌ 不要設定（會導致錯誤）：
+----------------------------------------
+N8N_PORT（Railway 會自動提供 PORT，N8N 會自動偵測）
+
